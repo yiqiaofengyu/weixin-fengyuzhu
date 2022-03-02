@@ -1,0 +1,94 @@
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #00000005;
+}
+
+.userContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.navigationBackground{
+  width: 100%;
+}
+
+.userInfo{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 1px 1px 3px 1px rgba(136, 136, 136, 0.425);
+  border-radius: 10rpx;
+  padding: 20rpx;
+  position: relative;
+  bottom: 200rpx;
+  background-color: #ffffff;
+}
+
+.userAvatar{
+  height: 140rpx;
+  width: 140rpx;
+  margin: 20rpx;
+  border-radius: 70rpx;
+}
+
+.userNickName{
+  align-self: center;
+  position: relative;
+  left: 40rpx;
+  font-size: 20pt;
+}
+
+
+.userService{
+  padding: 40rpx 20rpx 40rpx 20rpx;
+  
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+  position: relative;
+  bottom: 150rpx;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px 1px rgba(136, 136, 136, 0.425);
+}
+
+.userService-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 120rpx;
+  
+}
+
+.userService-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width:90%;
+}
+
+.userService-text{
+  font-size: 15px;
+  color: #000000;
+}
+
+.userService-icon{
+  padding-left: 10rpx;
+  padding-right: 20rpx;
+  width: 60rpx;
+}
+
+.arrow_right{
+  width: 30rpx;
+}

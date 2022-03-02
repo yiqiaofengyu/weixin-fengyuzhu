@@ -1,0 +1,37 @@
+<view class="photo-add">
+  <view class="page-body-info">
+        <block wx:if="{{img}}">
+         <view class="image-box">
+          <image src="{{img}}" class="video" ></image>
+  </view>     
+        </block>
+        <block wx:else>
+         <view class="image-plus image-plus-nb">
+            <view class="image-plus-horizontal"></view>
+            <view class="image-plus-vertical"></view>
+          </view>
+          <view class="image-plus-text">建筑图像识别</view>
+        </block>
+        
+      </view>
+      <view class="page-button">
+        <button type="primary" size="mini" bindtap="chooseImage">选择图片</button>
+      </view>
+      
+<view style="margin-top: {{margintop}}rpx;">
+
+ <view class="title">识别结果</view>
+<view class="weui-cells">
+     <view class="weui-cell">
+                <view class="weui-cell__bd">
+                  <view id="{{index}}" bindtap="query" class="weui-cells__title">Arch:<text>score</text>
+    </view>
+  <view wx:for="{{arch}}">
+    <view id="{{index}}" bindtap="query" class="weui-cells__title">{{item.name}}:<text>{{item.score}}</text>
+    </view>
+  </view>
+                </view>
+            </view>
+             </view>
+</view>
+</view>

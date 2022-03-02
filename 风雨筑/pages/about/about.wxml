@@ -1,0 +1,10 @@
+<!--pages/about/about.wxml-->
+<view class="mainContainer">
+  <text class="abouttext">
+  本小程序为同济大学本科毕业设计
+  《基于Grad-CAM的建筑图像分类》
+  小程序端部署演示
+  制作人：同济大学 乔宇
+  联系方式：390482245@qq.chooseImage
+  </text>
+</view>

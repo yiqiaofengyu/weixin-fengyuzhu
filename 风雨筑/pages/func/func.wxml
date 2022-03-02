@@ -1,0 +1,9 @@
+<!--pages/func/func.wxml-->
+<view class="mainContainer">
+  <text class="abouttext">1.点击右下方"识图"
+    2.点击建筑识别页面中央"选择图片"按钮
+    3.选择相册中的图片或拍摄图片
+    4.输出识别结果，包含建筑类别和可信度
+  </text>
+</view>
+
